@@ -133,7 +133,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2256477930298632154}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -150,7 +150,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &6304538446208140930
 GameObject:
@@ -207,6 +207,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7007275813503176182}
     m_Modifications:
+    - target: {fileID: 851398364985671097, guid: c8c0abcc3417d65429f973ce7e31e674, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0c0e146b0f7bb54b907068fcc104001, type: 2}
     - target: {fileID: 2273378706440302895, guid: c8c0abcc3417d65429f973ce7e31e674, type: 3}
       propertyPath: m_Name
       value: Shaft
