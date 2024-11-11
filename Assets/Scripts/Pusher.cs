@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pusher : MonoBehaviour
 {
-    private float pushStrength = 30.0f;
+    public float pushStrength = 30.0f;
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("Player"))

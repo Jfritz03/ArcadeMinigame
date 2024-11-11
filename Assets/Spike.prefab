@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1576347314540994053}
   - component: {fileID: 4540423301861178200}
   - component: {fileID: 4781848646720216890}
+  - component: {fileID: 3021440531421976875}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 41.814007, y: 13.598578, z: 23.3069}
-  m_LocalScale: {x: 3.4267192, y: 11.331926, z: 3.5268102}
+  m_LocalScale: {x: 2.6371346, y: 11.331926, z: 3.5268102}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3083501592782722683}
@@ -99,7 +100,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -107,6 +108,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3021440531421976875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101339699421446222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9e42ac973b4064292284ae3fc934ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3049465861736640167
 GameObject:
   m_ObjectHideFlags: 0
